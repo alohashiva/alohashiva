@@ -15,7 +15,7 @@ except:
 
 # 2. Cấu hình "Bộ não" AI
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash", # Bản nhanh và miễn phí
+    model_name="gemini-pro", # Bản nhanh và miễn phí
     system_instruction="Bạn là trợ lý ảo hữu ích cho công ty. Trả lời ngắn gọn, chuyên nghiệp."
 )
 
